@@ -15,7 +15,7 @@ b) This block of code runtime complexity would be O(n⌃3) because when somethon
 sum = 0 # O(1)
     for i in range(n): #O(n)
       j = 1 #O(1)
-      while j < n: # O(n)
+      while j < n: # O(log n)
         j *= 2 #O(1)
         sum += 1 #O(n)
 
